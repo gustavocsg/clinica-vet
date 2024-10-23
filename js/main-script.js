@@ -1,3 +1,4 @@
+// Função para alterar o tema do site (escuro ou claro)
 $(document).ready(function () {
   function removerClasseAtivo() {
     $(".lista-temas li a").removeClass("active");
